@@ -1,0 +1,91 @@
+@import url(main.css);
+
+.main{
+    width:1248px;
+    margin:0 auto;
+}
+
+.slider img{
+    display:block;
+    margin:0px auto;
+    height:200px;
+    width:400px;
+}
+
+.message{
+    text-align:center;
+}
+
+.message p{
+    margin-right:120px;
+}
+
+.message img{
+    width:200px;
+    height:200px;
+}
+
+.message .kyara{
+    float:left;
+}
+
+.message .kyara2{
+    float:right;
+}
+.pickup{
+    text-align:center;
+    padding-bottom:20px;
+    padding-top:20px;
+    background:radial-gradient(#F89174, #FFC778);
+}
+
+.pickupcake{
+    text-align:center;
+    display:inline-block;
+}
+.pickupcake img{
+    width:200px;
+    height:200px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.pickupcake p{
+    padding-right:125px;
+}
+
+.btn{
+    text-align:center;
+    padding-top:20px;
+}
+
+.btn a{
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+}
+
+
+.left h1,p{
+    margin-left:150px;
+}
+
+.left img{
+    float:right;
+    width:200px;
+    height:200px;
+    margin-top:-100px;
+    margin-right:100px;
+}
+
+.right img{
+    float:left;
+    width:200px;
+    height:200px;
+    margin-right:200px;
+}
+
+.right{
+    margin-right:150px;
+    margin-left:110px;
+}
+

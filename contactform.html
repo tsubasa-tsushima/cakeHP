@@ -1,0 +1,89 @@
+<!DOCTYPE>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>CakeShop津嶋</title>
+    <link rel = "stylesheet" type = "text/css" href ="contactform.css">
+    
+</head>
+<body>
+   <header>
+<div class="header">
+    <ul>
+        <li><a href="home.html" title="トップページ">ＴＯＰ</a></li>
+  <li><a href="shopinfo.html" title="店舗">店舗情報</a></li>
+  <li><a href="productinfo.html" title="商品情報">商品情報</a></li>
+  <li><a href="scout.html" title="採用情報">採用情報</a></li>
+ </ul>    
+    </div>
+</header>
+<h2>応募フォーム</h2>
+<form method="post" action="contactform_confirm.php">
+
+    <table>
+    <tr>
+        <th><label>名前</label></th>
+        <td><input type="text" class="text" name="name" size="35"></td>
+    </tr>
+        
+        <tr>
+        <th><label>ふりがな</label></th>
+        <td><input type="text" name="namekana" size="35"></td>
+    </tr>
+    <tr>
+        <th><label>性別</label></th>
+        <td><input type="radio" name="sex"  value="男性">男性
+        <input type="radio" name="sex"  value="女性">女性</td>
+    </tr>
+        <tr>
+        <th><label>年齢</label></th>
+        <td><input type="text" name="age" size="3">歳(半角)</td>
+    </tr>
+        <tr>
+        <th><label>住所</label></th>
+        <td><input type="text" name="address" size="50"></td>
+    </tr>
+        <tr>
+        <th><label>電話番号</label></th>
+        <td><input type="text" name="cellphone" size="15"></td>
+    </tr>
+        <tr>
+        <th><label>メールアドレス</label></th>
+        <td><input type="text" name="mailaddress" size="50"></td>
+    </tr>
+        <tr>
+        <th><label>最終学歴</label></th>
+        <td><input type="text" name="gakureki" size="50"></td>
+    </tr>
+        <tr>
+        <th><label>志望理由</label></th>
+        <td><textarea name="sibouriyuu" rows="7" cols="60"></textarea></td>
+    </tr>
+        <tr>
+        <th><label>職務経歴</label></th>
+        <td><textarea name="keireki" rows="7" cols="60"></textarea></td>
+    </tr>
+        <tr>
+        <th><label>自己PR</label></th>
+        <td><textarea name="zikopr" rows="7" cols="60"></textarea></td>
+    </tr>
+        <tr>
+        <th><label>その他・質問等</label></th>
+        <td><textarea name="sonota" rows="7" cols="60"></textarea></td>
+    </tr>
+    </table>
+    
+    <div class="message">
+            <label>・応募に関する情報は秘密厳守とさせていただきます。</label><br>
+            <label>・書類選考後、面接日など詳細をご連絡致します。</label>
+        </div>
+    
+    <div class="btn">
+        <input type="submit" class="submit" value="確認画面">
+        </div>
+        </form>
+    <footer>
+    Copyright © 2019 TSUSHIMACake All rights Reserved.
+    </footer>
+</body>
+</html>

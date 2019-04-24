@@ -1,0 +1,33 @@
+@import url(main.css);
+
+.shopinfo{
+    margin:0 auto;
+    border-collapse:collapse;
+    margin-top:100px;
+}
+
+th{
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding:15px;
+}
+
+td{
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding:15px;
+}
+
+.panda img{
+    width:200px;
+    height:200px;
+}
+
+.kyara{
+    float:left;
+    padding-top:200px;
+}
+
+.kyara2{
+    float:right;
+}

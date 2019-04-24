@@ -1,0 +1,58 @@
+@import url(main.css);
+
+h2{
+    margin-top:30px;
+    text-align:center;
+}
+
+table{
+    border-collapse:collapse;
+    width:600px;
+    margin:0 auto;
+}
+
+th{
+    background-color:lightgreen;
+    color:black;
+    border:solid 1px black;
+    text-align:center;
+    padding:10px;
+    width:150px;
+    
+}
+
+td{
+    border:solid 1px black;
+    padding:10px;
+    text-align:left;
+    color:black;
+}
+
+.panda img{
+    width:200px;
+    height:200px;
+}
+
+.kyara{
+    float:left;
+    padding-top:300px;
+}
+
+.kyara2{
+    float:right;
+}
+
+.btn{
+    text-align:center;
+    padding-top:30px;
+}
+
+.submit{
+    padding:10px;
+    border-radius:20px;
+    background-color:lightgray;
+}
+
+.message{
+    padding-left:320px;
+}

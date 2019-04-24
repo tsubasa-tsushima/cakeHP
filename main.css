@@ -1,0 +1,40 @@
+header{
+    background-color:black;
+    width:1248px;
+    height:50px;
+}
+
+header ul{
+    float:left;
+    line-height:20px;
+}
+
+header ul li{
+    list-style:none;
+    padding-right:50px;
+    float:left;
+    font-size:16px;
+    padding-left:10px;
+    margin-right:100px;
+
+}
+
+.header{
+    position:absolute;
+    left:160px;
+}
+
+.header a{
+    text-decoration:none;
+    color:white;
+}
+
+footer{
+    background-color:black;
+    width:1248px;
+    height:50px;
+    color:white;
+    line-height:50px;
+    margin-top:100px;
+    text-align:center;
+}

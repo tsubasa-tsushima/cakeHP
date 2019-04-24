@@ -1,0 +1,49 @@
+@import url(main.css);
+
+
+.box{
+    width:1000px;
+    height:330px;
+  /*  background-color:lightgray;*/
+    margin:0 auto;
+    text-align:center;
+    margin-top:20px;
+}
+
+.box img{
+    width:180px;
+    height:180px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.shortcakeimg{
+    display:inline-block;
+    text-align:center;
+}
+
+.shortcakeimg span{
+    border-bottom:1px solid black;
+}
+
+.s2 {
+	color: #444;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+    margin-bottom:20px;
+}
+.s2:before, .s2:after {
+	content: "";
+	flex-grow: 1;
+	height: 1px;
+	display: block;
+}
+.s2:before {
+	margin-right: .4em;
+	background: linear-gradient(-90deg, #888, transparent);
+}
+.s2:after {
+	margin-left: .4em;
+	background: linear-gradient(90deg, #888, transparent);
+}
